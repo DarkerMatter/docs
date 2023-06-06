@@ -52,7 +52,7 @@
         "api/sharex/update",
         "api/sharex/delete"
       ]
-    }
+    },
     {
       "group": "End Reset",
       "pages": [
