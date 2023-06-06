@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Darker.Systems Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/logo.png",
+    "light": "/logo/logo.png"
   },
   "favicon": "/favicon.png",
   "colors": {
@@ -13,18 +13,22 @@
   },
   "topbarLinks": [
     {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+      "name": "Main Site",
+      "url": "https://darker.systems"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Discord",
+    "url": "https://darker.systems/discord"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "API",
+      "url": "api"
+    }
+    {
+      "name": "Plugins",
+      "url": "plugins"
     }
   ],
   "navigation": [
@@ -37,23 +41,31 @@
       "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
+      "group": "API Docs",
+      "pages": ["api/authentication"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "ShareX Upload",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "api/sharex/get",
+        "api/sharex/create",
+        "api/sharex/update",
+        "api/sharex/delete"
+      ]
+    }
+    {
+      "group": "End Reset",
+      "pages": [
+        "plugins/end-reset/features",
+        "plugins/end-reset/commands",
+        "plugins/end-reset/permissions"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/matter_darker",
+    "github": "https://github.com/DarkerMatter",
+    "discord": "https://darker.systems/discord"
   },
   "backgroundImage": "/background.png"
 }
