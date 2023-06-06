@@ -42,7 +42,7 @@
     },
     {
       "group": "API Docs",
-      "pages": ["api/authentication"]
+      "pages": ["api/sharex/get"]
     },
     {
       "group": "ShareX Upload",
